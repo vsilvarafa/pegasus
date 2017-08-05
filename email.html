@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>ChefsClub</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="og:title" content="UTC 147 emoji approvals, convergance of emoji design, and copyright - what copyright?">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+
+        <style type="text/css">
+            /*RESET E CONFIG*/
+            *{
+                -webkit-text-size-adjust: none;
+                -ms-text-size-adjust: none;
+            }
+
+            html{
+                width: 100%;
+            }
+
+            body{
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            table{
+                border-spacing: 0;
+                border-collapse: collapse;
+                border: 0;
+                width: 100%;
+            }
+
+            td, th{
+                padding: 0;
+            }
+
+            img{
+                display: block;
+                border-radius: 6px;
+            }
+
+            a[x-apple-data-detectors]{
+                color: inherit!important;
+                text-decoration: inherit!important;
+            }
+
+            /*CHEFSCLUB STYLE*/
+            h1, h2, h3, p, span, a{
+                font-family: 'Lato', Helvetica, Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            #preheader{
+                font-size: 1px;
+                color: #fff;
+                line-height: 1px;
+                max-height: 0px;
+                opacity: 0;
+                overflow: hidden;
+                display: none;
+            }
+
+            h1{
+              font-size: 42px;
+              line-height: 51px;
+              font-weight: bold;
+              letter-spacing: -0.45px;
+              padding-bottom: 5px;
+            }
+
+            h2{
+              font-size: 28px;
+              line-height: 44px;
+              font-weight: bold;
+              letter-spacing: -0.45px;
+              padding-top: 5px;
+            }
+
+            p{
+              font-size: 16px;
+              line-height: 1.4;
+              font-weight: normal;
+              padding-bottom: 25px;
+              color: #000000;
+            }
+
+            .container{
+              margin: 0 auto;
+              width: 580px;
+            }
+
+            .content-view-web a{
+              padding: 0;
+              font-size: 13px;
+              color: #9e9e9e;
+            }
+
+            .reset-widht{
+              width: 0;
+            }
+
+            /*paddind and config boxes*/
+            .box-view-web{padding: 30px 0 5px 0;}
+            .box-logo{padding: 15px 0;}
+            .box-higlight{padding: 15px 0;}
+            .box-button {padding: 0 0 20px 0;}
+            .box-column{padding: 25px 0;}
+            .box-bullet{padding: 15px 0;}
+            .box-footer{border-top: 1px solid #dedede; padding-top: 20px;}
+
+            /*grid*/
+            .two-column{
+                width: 290px;
+            }
+
+            .tree-column{
+                width: 180px;
+                padding-bottom: 20px;
+            }
+
+            .tree-column-space{
+                width: 20px;
+            }
+
+            .tree-col-text p{
+              font-size: 16px;
+              line-height: 20px;
+              color: #9e9e9e;
+              padding-top: 10px;
+              padding-bottom: 7px;
+            }
+
+            .tree-col-text a{
+              font-size: 16px;
+              color: #53B987;
+            }
+
+            .bullet-image{
+              width: 50px;
+              padding-right: 10px;
+              vertical-align: top;
+            }
+
+            .bullet-text{
+              width: 520px;
+            }
+
+            .bullet-text-select{
+              width: 420px;
+            }
+
+            .bullet-select{
+              width: 100px;
+            }
+
+            .bullet-text p{
+              padding: 0;
+            }
+
+            /*higlight*/
+            .higlight-content{
+                background-color: #E7F9FD;
+                border: 1px solid #8ADAFF;
+            }
+
+            .higlight-content h2{
+                color: #1D8DE8;
+                padding-top: 10px;
+            }
+
+            .higlight-content p{
+                color: #1D8DE8;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+
+            /*button*/
+           .button-content {
+                min-width: 255px;
+                border: 13px solid #2196f3;
+                border-radius: 6px;
+                background-color: #2196f3;
+                font-size: 19px;
+                color: #ffffff;
+                display: inline-block;
+                text-align: center;
+                vertical-align: top;
+                font-weight: 900;
+                text-decoration: none !important;
+            }
+
+            .button-content-restaurant {
+                min-width: 180px;
+                border: 13px solid #2196f3;
+                border-radius: 6px;
+                background-color: #2196f3;
+                font-size: 19px;
+                color: #ffffff;
+                display: inline-block;
+                text-align: center;
+                vertical-align: top;
+                font-weight: 900;
+                text-decoration: none !important;
+            }
+
+            .button-content-bullet {
+                 min-width: 70px;
+                 border: 9px solid #2196f3;
+                 border-radius: 3px;
+                 background-color: #2196f3;
+                 font-size: 16px;
+                 color: #ffffff;
+                 display: inline-block;
+                 text-align: center;
+                 vertical-align: top;
+                 font-weight: 900;
+                 text-decoration: none !important;
+             }
+
+            .button_link{
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            /*footer*/
+            .footer-content {
+                padding: 0;
+                margin-top: 10px;
+            }
+
+            .footer-content h3 {
+                font-weight: 400;
+                font-size: 19px;
+                padding-bottom: 15px;
+            }
+
+            .footer-content p {
+                font-size: 12px;
+                color: #484848;
+                line-height: 1.4;
+            }
+
+            .footer-content a {
+                color: #484848;
+                font-weight: 400;
+            }
+
+            .store-app {
+              display: inline-block;
+              border: 0px;
+              padding-bottom: 5px;
+            }
+
+            /*MOBILE CHEFSCLUB STYLE*/
+            @media only screen and (max-width: 640px) {
+              .mobile-hide {
+                display:none !important;
+              }
+
+              .main-table {
+                width: 100% !important;
+                min-width: 0 !important;
+                clear: both;
+              }
+
+              .container {
+                width: 290px !important;
+                min-width: 0 !important;
+              }
+
+              .image-max {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+              }
+
+              .m-cell {
+                display: block !important;
+                float: left !important;
+                width: 100% !important;
+                max-width: none !important;
+                min-width: 0 !important;
+              }
+
+              h1{
+                font-size: 40px !important;
+                line-height: 45px !important;
+              }
+
+              h2{
+                font-size: 23px !important;
+                line-height: 38px !important;
+              }
+
+              p{
+                font-size: 17px !important;
+                line-height: 22px !important;
+              }
+
+              .bullet-text p{
+                text-align: center !important;
+                padding-top: 10px;
+              }
+
+              .bullet-text-select p{
+                text-align: center !important;
+                padding-top: 10px;
+              }
+
+              .store-app {
+                  display: block;
+              }
+
+              .higlight-content h2{
+                padding-top: 15px !important;
+              }
+
+              .footer-content p {
+                font-size: 12px !important;
+              }
+            }
+        </style>
+        <!--[if gte mso 9]>
+        <style type="text/css">
+        body, table, tr, td, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dd, dt{font-family: Helvetica, Arial, sans-serif !important;}
+        .h2, .h3 { line-height: 100% !important; }
+        .h1, .number, .link {line-height: 80% !important;}
+        </style>
+        <![endif]-->
+        <!--[if gte mso 9]>
+        <xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml>
+        <![endif]-->
+    </head>
+    <body>
+
+    <div id="preheader"></div>
+
+    <table align="center">
+    <tbody>
+    <tr>
+    <td align="center">
+    <!--[if (gte mso 9)|(IE)]>
+    <table width="800" align="center" cellpadding="0" cellspacing="0" border="0" style="width: 800px;">
+    <tr>
+    <td valign="top">
+    <![endif]-->
+    <table align="center" class="main-table">
+    <tbody>
+    <tr>
+    <td align="center">
+
+        <!--VIEW WEB-->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td class="box-view-web">
+            <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <td>
+                      <img class="image-logo" title="ChefsClub - Apaixonados por gastronomia" width="60" height="60" src="https://s3-sa-east-1.amazonaws.com/mkt.chefsclub.com.br/emails-newsletter/_2017/framework/logo%402x.jpg"/>
+                    </td>
+
+                    <td class="content-view-web mobile-hide" align="right">
+                        <a href="*|ARCHIVE|*" target="_blank">Veja no navegador</a>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+        <!--LOGO-->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td class="box-logo">
+            <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <td class="content-logo" align="center">
+                        <a href="" target="_blank"><img src="header.jpg" alt="" width="580" class="image-max"/></a>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+        <!--CONTENT-->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td align="center" class="box-content">
+            <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <td class="main-content">
+                        <h1>Lorem ipsum dolor sit amet</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quod voluptatibus, fugit facilis consectetur esse quis, omnis reiciendis? Quis eaque deleniti vel aspernatur doloribus laboriosam itaque iusto unde ullam illo.</p>
+                    </td>
+                </tr>
+
+                <!-- btn -->
+                <tr>
+                    <td class="box-button" align="left">
+                    <table class="reset-widht" align="center">
+                         <tr>
+                            <td class="button-content" align="left">
+                                <a class="button_link" title="Ver opções" href="" target="_blank">Ver opções</a>
+                            </td>
+                        </tr>
+                    </table>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+        <!-- highlight -->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td class="box-higlight">
+        <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <td class="higlight-content" align="center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>Sit amet, consectetur adipisicing elit. Excepturi, placeat earum possimus. Sint neque quis corporis culpa, aliquam sed officia id placeat aliquid veniam nemo harum aperiam nulla, iure praesentium?</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+        <!--TWO COLUMN-->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td class="box-column" align="center">
+            <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <th class="m-cell two-column" align="center">
+                        <table align="center">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <a href="" target="_blank"><img src="restaurant.jpg" alt="" width="290"></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </th>
+
+                    <th class="m-cell two-column" align="center">
+                        <h2>Lorem ipsum dolor</h2>
+                        <p>Barra da Tijuca</p>
+
+                        <!-- btn -->
+                        <table align="center">
+                            <tr>
+                            <td class="box-button" align="center">
+                            <table class="reset-widht" align="center">
+                                 <tr>
+                                    <td class="button-content-restaurant" align="center">
+                                        <a class="button_link" title="Ver opções" href="" target="_blank">Ver opções</a>
+                                    </td>
+                                </tr>
+                            </table>
+                            </td>
+                            </tr>
+                        </table>
+                    </th>
+                </tr>
+            </tbody>
+            </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+
+        <!--TWO COLUMN BUlLET-->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td class="box-bullet" align="center">
+            <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <th class="m-cell bullet-image" align="center">
+                        <table align="center">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <img src="bullet.jpg" alt="" width="50" height="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </th>
+
+                    <th class="m-cell bullet-text" align="left">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur aliquid sit cupiditate debitis suscipit corporis adipisci</p>
+                    </th>
+                </tr>
+            </tbody>
+            </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+        <!--TREE COLUMN BUlLET SELECT-->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td class="box-bullet" align="center">
+            <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <th class="m-cell bullet-image" align="center">
+                        <table align="center">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <img src="bullet.jpg" alt="" width="50" height="50">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </th>
+
+                    <th class="m-cell bullet-text-select" align="left">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur aliquid sit cupiditate debitis.</p>
+                    </th>
+
+                    <th class="m-cell bullet-select" align="center">
+                        <table align="center">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                      <!-- btn -->
+                                      <table align="center">
+                                          <tr>
+                                          <td class="box-button" align="center">
+                                          <table class="reset-widht" align="center">
+                                               <tr>
+                                                  <td class="button-content-bullet" align="center">
+                                                      <a class="button_link" title="Ver opções" href="" target="_blank">Ver</a>
+                                                  </td>
+                                              </tr>
+                                          </table>
+                                          </td>
+                                          </tr>
+                                      </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </th>
+                </tr>
+            </tbody>
+            </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+
+        <!--TREE COLUMN-->
+        <table align="center">
+        <tbody>
+        <tr>
+        <td class="box-column" align="center">
+            <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <th class="m-cell tree-column" align="center">
+                        <table align="center">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <img src="3-col.jpg" alt="" width="180" height="180">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" class="tree-col-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <a href="" target="_blank">Detalhes</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </th>
+
+                    <th class="m-cell tree-column-space"></th>
+
+                    <th class="m-cell tree-column" align="center">
+                        <table align="center">
+                            <tbody>
+                                <tr>
+                                    <td align="center" >
+                                        <img src="3-col.jpg" alt="" width="180" height="180">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" class="tree-col-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <a href="" target="_blank">Detalhes</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </th>
+
+                    <th class="m-cell tree-column-space"></th>
+
+                    <th class="m-cell tree-column" align="center">
+                        <table align="center">
+                            <tbody>
+                                <tr>
+                                    <td align="center">
+                                        <img src="3-col.jpg" alt="" width="180" height="180">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" class="tree-col-text">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        <a href="" target="_blank">Detalhes</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </th>
+                </tr>
+            </tbody>
+            </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+        <!-- footer -->
+        <table align="center" class="reset-widht">
+        <tbody>
+        <tr>
+        <td class="box-footer">
+        <table class="container" align="center">
+            <tbody>
+                <tr>
+                    <td class="footer-content">
+                        <h3>Leve o <strong>ChefsClub</strong> no seu bolso</h3>
+
+                        <a href="https://itunes.apple.com/app/apple-store/id587357217?pt=1816222&ct=box-app-newsletter&mt=8" target="_blank"><img src="https://s3-sa-east-1.amazonaws.com/mkt.chefsclub.com.br/Framework+email/app-store-footer.png" alt="Baixe na iTunes Store" width="150" height="45" class="store-app"></a>
+
+                        <a href="https://play.google.com/store/apps/details?id=br.com.chefsclub.app&referrer=utm_source%3Dbox-app-newsletter%26utm_medium%3Demail&hl=pt_BR" target="_blank"><img src="https://s3-sa-east-1.amazonaws.com/mkt.chefsclub.com.br/Framework+email/play-store-footer.png" alt="Baixe na PlayStore" width="150" height="45" class="store-app"></a>
+
+                        <p><br><a href="http://chefsclub.referralcandy.com/" target="_blank">Indique seus amigos!</a> Eles ganham 10% de desconto e você, 1 mês a mais na sua assinatura 😀<br></p>
+
+                        <p><strong>Fale conosco:</strong> <br> 4003-6177 (Capitais e regiões metropolitanas) <br>(21) 2018-0077 (Demais localidades) <br> <a href="mailto:contato@chefsclub.com.br?Subject=Contato%20E-mail" target="_blank"> contato@chefsclub.com.br</a>
+
+                        <br><br>
+
+                        <a href="*|UNSUB|*" target="_blank">Não quero</a> mais receber emails.
+
+                        <br><br>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    </body>
+</html>
